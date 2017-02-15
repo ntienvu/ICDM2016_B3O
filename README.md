@@ -18,3 +18,10 @@ Installation
 ### Usage:
 * Check the ipynb folder for the demo using iPython notebook
 * Run the experiments using our approaches and the baselines in run_batch folder.
+
+
+### Contact:
+Dr Vu Nguyen, v.nguyen@deakin.edu.au
+
+### Reference:
+Nguyen, Vu, Santu Rana, Sunil K. Gupta, Cheng Li, and Svetha Venkatesh. "Budgeted batch bayesian optimization." In Data Mining (ICDM), 2016 IEEE 16th International Conference on, pp. 1107-1112. IEEE, 2016.
