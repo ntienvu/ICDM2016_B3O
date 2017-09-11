@@ -43,7 +43,7 @@ mybound=myfunction.bounds
 
 yoptimal=myfunction.fmin*myfunction.ismax
 
-gp_params = {'theta':0.1*myfunction.input_dim,'noise_delta':0.1}
+gp_params = {'theta':1*myfunction.input_dim,'noise_delta':0.000001}
 
 nRepeat=3
 
@@ -61,7 +61,7 @@ acq_type='ucb'
 mybatch_type='b3o'
 for ii in range(nRepeat):
     bo=PradaBayOptBatch(func,mybound,acq=acq_type,opt='scipy')
-    GAP[ii],Regret[ii],MyTime[ii]=auxiliary_functions.run_experiment_batch(bo,gp_params,yoptimal,batch_type=mybatch_type,n_init=3,NN=10)
+    GAP[ii],Regret[ii],MyTime[ii]=auxiliary_functions.run_experiment_batch(bo,gp_params,yoptimal,batch_type=mybatch_type,n_init=3,NN=10*myfunction.input_dim)
     MyOptTime[ii]=bo.opt_time
     ybest[ii]=bo.Y
     BatchSz[ii]=bo.NumPoints
