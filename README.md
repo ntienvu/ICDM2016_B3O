@@ -19,7 +19,7 @@ Installation
 
 
 ### Contact:
-Dr Vu Nguyen, v.nguyen@deakin.edu.au
+Dr Vu Nguyen, vu@ieee.org
 
 ### Reference:
     Vu Nguyen, Santu Rana, Sunil Gupta, Cheng Li, and Svetha Venkatesh. "Budgeted batch bayesian optimization." In IEEE 16th International Conference on Data Mining (ICDM), pp. 1107-1112, 2016.
