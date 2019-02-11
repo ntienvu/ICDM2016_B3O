@@ -14,12 +14,8 @@ Installation
 
 
 ### Usage:
-* Check the ipynb folder for the demo using iPython notebook
-* Run the experiments using our approaches and the baselines in run_batch folder.
-
-
-### Contact:
-Dr Vu Nguyen, vu@ieee.org
+* the black-box function is defined in the myFunction.m
+* run the main file: demo_50dimension.m
 
 ### Reference:
-    Vu Nguyen, Santu Rana, Sunil Gupta, Cheng Li, and Svetha Venkatesh. "Budgeted batch bayesian optimization." In IEEE 16th International Conference on Data Mining (ICDM), pp. 1107-1112, 2016.
+    Santu Rana, Cheng Li, Sunil Gupta, Vu Nguyen, and Svetha Venkatesh. "High dimensional Bayesian optimization with elastic gaussian process." In International Conference on Machine Learning (ICML), pp. 2883-2891. 2017.
